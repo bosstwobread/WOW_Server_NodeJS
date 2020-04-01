@@ -1,0 +1,9 @@
+﻿npm run devstart
+手动：
+Mac电脑copy项目到宿主机：scp -P 22 /Users/Shared/Project/Learn_2019/WOW-Web/wow.zip root@129.211.39.173:/ftp-file
+Copy源码压缩包到容器（在宿主机中执行）：docker cp /ftp-file/wow.zip wow-web-node:var/wow-web
+进入容器:docker exec -it wow-web-node bash
+
+自动：
+sshpass -p TXlxs1986 scp -P 22 /Users/Shared/Project/Learn_2019/WOW-Web/wow.zip root@129.211.39.173:/ftp-file \
+&& sshpass -p TXlxs1986 ssh root@129.211.39.173 < publish.sh

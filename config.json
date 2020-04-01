@@ -1,0 +1,9 @@
+{
+    "mysql": {
+        "host": "117.51.139.210",
+        "user": "lfself",
+        "password": "lf163selfkey",
+        "port": "3306",
+        "database": "tbcrealmd"
+    }
+}

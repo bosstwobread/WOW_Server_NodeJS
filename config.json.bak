@@ -1,0 +1,9 @@
+{
+    "mysql": {
+        "host": "129.211.39.173",
+        "user": "soduko",
+        "password": "520520520",
+        "port": "3307",
+        "database": "temp"
+    }
+}

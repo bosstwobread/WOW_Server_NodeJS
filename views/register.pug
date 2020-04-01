@@ -1,0 +1,15 @@
+extends layout
+block head
+    link(rel='stylesheet' href='/stylesheets/register.css')
+    script(type='text/javascript' src='/javascripts/jquery.js')
+    script(type='text/javascript' src='/javascripts/register.js')
+block content
+    div(class='container')
+        p 用户名：
+        input(id='name')
+        p 密码：
+        input(id='pwd' type='password')
+        p 再次输入密码：
+        input(id='pwd_verfify' type='password')
+        p
+        input(id='submit' type='button' class='submit' value='注册')
